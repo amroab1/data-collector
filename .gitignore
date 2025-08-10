@@ -1,0 +1,14 @@
+
+# GCP service account key
+data-collector-468619-50e00da2d9e8.json
+node_modules/
+.env
+.env*
+*.zip
+
+data-collector-468619-50e00da2d9e8.json
+
+# secrets
+.env
+.env*
+data-collector-468619-50e00da2d9e8.json

@@ -1,0 +1,14 @@
+{
+  "name": "telegram-casebot-sheets",
+  "version": "1.0.0",
+  "description": "A Telegram bot to collect cases step-by-step and save to Google Sheets.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "googleapis": "^137.0.0",
+    "telegraf": "^4.16.3"
+  }
+}
