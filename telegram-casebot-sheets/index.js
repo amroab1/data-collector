@@ -144,10 +144,10 @@ bot.on('text', async (ctx) => {
   } else {
     try {
       await appendToGoogleSheet(state.answers);
-      await ctx.reply('✅ تم الحفظ بنجاح في Google Sheets.');
+      await ctx.reply('✅ تم الحفظ بنجاح  ');
     } catch (err) {
       console.error('Error saving to Google Sheets:', err);
-      await ctx.reply('⚠️ حدث خطأ أثناء الحفظ في Google Sheets. حاول مرة أخرى.');
+      await ctx.reply('⚠️ حدث خطأ أثناء الحفظ . حاول مرة أخرى.');
     }
     states.delete(ctx.from.id);
   }
